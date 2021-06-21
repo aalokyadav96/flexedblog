@@ -1,35 +1,45 @@
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+<footer class='footer'>
+  <ul class='footer__list'>
+    {% if site.author %}
+      {% if site.email %}
+        <li class='footer__item'>
+          <a href='mailto:{{ site.email }}'>{{ site.author }}</a>
+        </li>
+      {% else %}
+        <li class='footer__item'>{{ site.author }}</li>
+      {% endif %}
+    {% endif %}
 
-  <div class="wrapper">
+    {% if site.github_username %}
+      <li class='footer__item'>
+        <a href='https://github.com/{{ site.github_username }}' title='github'>
+          {% include icon.html icon='github' %}
+        </a>
+      </li>
+    {% endif %}
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+    {% if site.twitter_username %}
+      <li class='footer__item'>
+        <a href='https://twitter.com/{{ site.twitter_username }}' title='twitter'>
+          {% include icon.html icon='twitter' %}
+        </a>
+      </li>
+    {% endif %}
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
-      </div>
+    {% if site.facebook_username %}
+      <li class='footer__item'>
+        <a href='https://www.facebook.com/{{ site.facebook_username }}' title='facebook'>
+          {% include icon.html icon='facebook' %}
+        </a>
+      </li>
+    {% endif %}
 
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
-      </div>
-    </div>
-
-  </div>
-
+    {% if site.dribbble_username %}
+      <li class='footer__item'>
+        <a href='https://dribbble.com/{{ site.dribbble_username }}' title='dribbble'>
+          {% include icon.html icon='dribbble' %}
+        </a>
+      </li>
+    {% endif %}
+  </ul>
 </footer>
