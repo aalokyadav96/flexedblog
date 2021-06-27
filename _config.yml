@@ -1,26 +1,33 @@
-# Site settings
-title: "Aalok Yadav"
-description: > 
-  Everything I know is here.
+###########
+# site.title
 
-author: Aalok Yadav
-email: 
-twitter_username: 
-github_username: aalokyadav96
+title: Aalok Yadav
+description: It's frustrating
+url: "/"
+#host: 0.0.0.0
 
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "/" # the base hostname & protocol for your site
 
-#google_analytics_id: 
-#disqus_id:
+#########################
+# more settings
 
-# Build settings
-include: [_pages]
 markdown: kramdown
-permalink: /:year/:month/:title.html
+
+compress_html:
+  clippings: all
+  comments: [""]
+  endings: [html, head, body, li, dt, dd, rt, rp, optgroup, option, colgroup, caption, thead, tbody, tfoot, tr, td, th]
+  profile: false
+  blanklines: false
+  ignore:
+    envs: []
 
 sass:
-    style: compressed
+  sass_dir: css
+  style:    compressed
 
-exclude: [vendor]
+baseurl: ""
+permalink: pretty
 
+exclude:
+- README.md
+- LICENSE.md

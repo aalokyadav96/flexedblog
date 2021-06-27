@@ -1,7 +1,5 @@
 _site/
-.swp
-.sass-cache/
+_drafts/
 .jekyll-metadata
+Gemfile.lock
 .DS_Store
-.bundle
-vendor/*

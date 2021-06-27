@@ -1,12 +1,20 @@
-<!DOCTYPE html>
-<html>
-  {% include head.html %}
-  <body>
-    <main class="u-container">
-      {{ content }}
+---
+layout: compress
+---
+
+{% include head.html %}
+
+    <main>
+
+        {% include header.html %}
+
+        <h1>{{ page.title }}</h1>
+
+        {{ content }}
+
     </main>
-    {% if jekyll.environment == 'production' %}
-    {% include analytics.html %}
-    {% endif %}
-  </body>
+
+    {% include footer.html %}
+
+</body>
 </html>
