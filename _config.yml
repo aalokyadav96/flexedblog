@@ -1,21 +1,26 @@
-title: Aalok Yadav
+# Site settings
+title: "Aalok Yadav"
+description: > 
+  Everything I know is here.
+
 author: Aalok Yadav
 email: 
-description: Everything I know is here
-
+twitter_username: 
 github_username: aalokyadav96
-# twitter_username:
-# facebook_username:
-# dribbble_username:
 
-# date_format:
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "/" # the base hostname & protocol for your site
 
-# google_analytics:
-# disqus_shortname:
-blog_theme: auto
+#google_analytics_id: 
+#disqus_id:
 
+# Build settings
+include: [_pages]
 markdown: kramdown
+permalink: /:year/:month/:title.html
 
-plugins:
- - jekyll-feed
- - jekyll-seo-tag
+sass:
+    style: compressed
+
+exclude: [vendor]
+

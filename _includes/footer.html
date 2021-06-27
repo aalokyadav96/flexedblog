@@ -1,45 +1,4 @@
-<footer class='footer'>
-  <ul class='footer__list'>
-    {% if site.author %}
-      {% if site.email %}
-        <li class='footer__item'>
-          <a href='mailto:{{ site.email }}'>{{ site.author }}</a>
-        </li>
-      {% else %}
-        <li class='footer__item'>{{ site.author }}</li>
-      {% endif %}
-    {% endif %}
-
-    {% if site.github_username %}
-      <li class='footer__item'>
-        <a href='https://github.com/{{ site.github_username }}' title='github'>
-          {% include icon.html icon='github' %}
-        </a>
-      </li>
-    {% endif %}
-
-    {% if site.twitter_username %}
-      <li class='footer__item'>
-        <a href='https://twitter.com/{{ site.twitter_username }}' title='twitter'>
-          {% include icon.html icon='twitter' %}
-        </a>
-      </li>
-    {% endif %}
-
-    {% if site.facebook_username %}
-      <li class='footer__item'>
-        <a href='https://www.facebook.com/{{ site.facebook_username }}' title='facebook'>
-          {% include icon.html icon='facebook' %}
-        </a>
-      </li>
-    {% endif %}
-
-    {% if site.dribbble_username %}
-      <li class='footer__item'>
-        <a href='https://dribbble.com/{{ site.dribbble_username }}' title='dribbble'>
-          {% include icon.html icon='dribbble' %}
-        </a>
-      </li>
-    {% endif %}
-  </ul>
+<footer class="c-page__footer">
+  <p>&copy; {{ site.author }} {{ 'now' | date: '%Y' }}</p>
+  <p>{% if site.twitter_username %}<a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>{% if site.github_username %}<span class="u-separate"></span>{% endif %}{% endif %}{% if site.github_username %}<a href="https://github.com/{{ site.github_username }}">Github</a>{% endif %}</p>
 </footer>
