@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Fools God : Science vs Stupidity"
+tagline: "Who made GOD and why it is dangerous."
 date:   2021-06-20
 categories: science politics
 ---
