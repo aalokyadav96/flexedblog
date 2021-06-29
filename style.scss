@@ -61,7 +61,7 @@ a,a:visited {
     line-height: 1.6;
 
     &:hover {
-        color: rgb(220, 40, 40);
+        color: rgb(0, 128, 28);
     }
 }
 h5  {
@@ -209,6 +209,7 @@ figure {
     display: block;
     font-size: 80%;
     font-style: italic;
+    color:rgb(220, 40, 40);
 }
 
 /*div*/.epigraph {
@@ -235,7 +236,7 @@ figure {
     $NAVIGATION
 /**************************************/
 nav {
-    margin-bottom: 6rem;
+    margin-bottom: 3rem;
     margin-top: 1rem;
 
     .menu-icon {
