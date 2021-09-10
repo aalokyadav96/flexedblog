@@ -2,7 +2,7 @@
 layout: post
 excerpt_separator: <!--more-->
 title: E = MC<sup>2</sup>
-description: Is light's speed really constant !?
+tagline: Is light's speed really constant !?
 date: 2021-09-10
 categories: ["light"]
 tags:
