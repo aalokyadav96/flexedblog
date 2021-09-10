@@ -2,7 +2,7 @@
 layout: post
 excerpt_separator: <!--more-->
 title: Theory of Special relativity
-description: The most misunderstood theory in the universe.
+tagline: The most misunderstood theory in the universe.
 date: 2020-12-26
 categories: ["news"]
 tags:
