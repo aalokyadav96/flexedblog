@@ -2,7 +2,7 @@
 layout: ko
 excerpt_separator: <!--more-->
 title: Korean &#58; Introduction to alphabet
-description: Introduction to Korean Language alphabet with Hindi and English comparison.
+tagline: Introduction to Korean Language alphabet with Hindi and English comparison.
 categories: ["korean"]
 tags: korean
 ---
