@@ -5,36 +5,26 @@ title: Search
 
 <style>
 	#search-container {
-	    max-width: 100%;
-    display: flex;
-    background: #efefef;
+	   max-width: 100%;
     border-bottom: 2px solid #686868;
     margin: 0rem 0.2rem;
     max-width: 650px;
     align-items: center;
 	}
 
-	input[type=text] {
-		font-size: normal;
-	    outline: none;
-	    padding: 1rem;
-		background: rgb(236, 237, 238);
-	    width: 100%;
-		-webkit-appearance: none;
-		font-family: inherit;
-		font-size: 100%;
-		border: none;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
+input[type=text] {
+    background: rgb(236, 237, 238);
+    width: 100%;
+    -webkit-appearance: none;
+    font-family: inherit;
     box-sizing: border-box;
     border: 0px;
     outline: none;
-    background: transparent;
     color: #000;
     font-size: 1.1rem;
     height: 3rem;
     padding: 0rem 1.2rem;
-	}
+}
 	#results-container {
 		margin: .5rem 0;
 	}
