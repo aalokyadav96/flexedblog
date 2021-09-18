@@ -64,6 +64,7 @@ a,a:visited {
     }
 }
 h4  {
+    margin-bottom: 1rem;
     font-style: normal;
     text-transform: none;
 }
@@ -277,31 +278,31 @@ nav {
         }
 
         main article:nth-child(7n-6) {
-            background: #81a1ff url(http://www.graphicartsunit.com/images/noise.png);
+            background: #81a1ff99 url(http://www.graphicartsunit.com/images/noise.png);
         }
 
         main article:nth-child(7n-5) {
-            background: #ecec84 url(http://www.graphicartsunit.com/images/noise.png);
+            background: #ecec8499 url(http://www.graphicartsunit.com/images/noise.png);
         }
 
         main article:nth-child(7n-4) {
-            background: #ffb69b url(http://www.graphicartsunit.com/images/noise.png);
+            background: #ffb69b99 url(http://www.graphicartsunit.com/images/noise.png);
         }
 
         main article:nth-child(7n-3) {
-            background: #ffacbb url(http://www.graphicartsunit.com/images/noise.png);
+            background: #ffacbb99 url(http://www.graphicartsunit.com/images/noise.png);
         }
 
         main article:nth-child(7n-2) {
-            background: #8bc3e5 url(http://www.graphicartsunit.com/images/noise.png);
+            background: #8bc3e599 url(http://www.graphicartsunit.com/images/noise.png);
         }
 
         main article:nth-child(7n-1) {
-            background: #c8bcff url(http://www.graphicartsunit.com/images/noise.png);
+            background: #c8bcff99 url(http://www.graphicartsunit.com/images/noise.png);
         }
 
         main article:nth-child(7n) {
-            background: #7ccaae url(http://www.graphicartsunit.com/images/noise.png);
+            background: #7ccaae99 url(http://www.graphicartsunit.com/images/noise.png);
         }
 
 main {
@@ -316,7 +317,6 @@ main {
 }
 .texto {
     margin: 0;
-    font-size: 18px;
     line-height: 1;
     text-shadow: 2px 2px 0px #fff;
     text-transform: capitalize;
