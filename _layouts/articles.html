@@ -4,17 +4,17 @@ layout: compress
 
 {% include head.html %}
 
-    <main>
-
         {% include header.html %}
 
         <h2>{{ page.title }}</h2>
 
 <hr>
         {{ page.content }}
+    <main>
+
         {% for post in site.posts %}
-            <article>
-                <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+            <article class="x1MBX">
+                <h3 class="texto"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
                 <h5>{{ post.tagline }}</h5>
                 <!--span class="mini-note">{{ post.date | date: "%b %-d, %Y" }}</span-->
             </article>
