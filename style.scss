@@ -268,6 +268,83 @@ nav {
     }
 }
 
+        main::-webkit-scrollbar {
+            width: 0px;
+            height: 0px;
+        }
+
+        main::-webkit-scrollbar-thumb {
+            background-color: #555;
+        }
+
+        main div:nth-child(7n-6) {
+            background: #81a1ff url(http://www.graphicartsunit.com/images/noise.png);
+        }
+
+        main div:nth-child(7n-5) {
+            background: #ecec84 url(http://www.graphicartsunit.com/images/noise.png);
+        }
+
+        main div:nth-child(7n-4) {
+            background: #ffb69b url(http://www.graphicartsunit.com/images/noise.png);
+        }
+
+        main div:nth-child(7n-3) {
+            background: #ffacbb url(http://www.graphicartsunit.com/images/noise.png);
+        }
+
+        main div:nth-child(7n-2) {
+            background: #8bc3e5 url(http://www.graphicartsunit.com/images/noise.png);
+        }
+
+        main div:nth-child(7n-1) {
+            background: #c8bcff url(http://www.graphicartsunit.com/images/noise.png);
+        }
+
+        main div:nth-child(7n) {
+            background: #7ccaae url(http://www.graphicartsunit.com/images/noise.png);
+        }
+
+main {
+    flex-wrap: wrap;
+    display: flex;
+    background: #ffffff;
+    overflow-x: visible;
+    width: 100%;
+    padding: 0 3px 0 3px;
+    overflow-y: hidden;
+    padding-right: 0.4rem;
+}
+.texto {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1;
+    text-shadow: 2px 2px 0px rgb(255 255 255);
+    text-transform: capitalize;
+    display: block;
+    font-weight: 600;
+    transition: background-color .15s ease-in-out;
+    text-decoration: none;
+    padding: 10px;
+    color: #000000;
+    box-shadow: 0 15px 30px 0 rgb(0 0 0 / 11%), 0 5px 15px 0 rgb(0 0 0 / 8%);
+}
+.x1MBX {
+    margin: 0.2rem 4px;
+    overflow: hidden;
+    border-radius: 3px;
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 0;
+    opacity: 0.9;
+}
+        /*
+              0rem 0.1rem 1rem rgba(0, 0, 0, .3)*/
+
+        h3 {
+            font-family: "Zilla Slab";
+        }
+
 /**************************************
     $MEDIA QUERIES - TABLET
 /**************************************/
