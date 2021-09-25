@@ -63,9 +63,10 @@ a,a:visited {
         color: rgb(0, 128, 28);
     }
 }
-h4  {
+.tagline  {
     margin-bottom: 1rem;
     font-style: normal;
+    margin-bottom: 1rem;
     text-transform: none;
 }
 blockquote {
@@ -325,6 +326,7 @@ main {
     transition: background-color .15s ease-in-out;
     text-decoration: none;
     padding: 10px;
+    font-size: 1.8rem;
     color: #000000;
 }
 .x1MBX {
